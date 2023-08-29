@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/vklogo2.jpg" type="image/png"><!--to add icon image-->
+   <!--<meta http-equiv="refresh" content="3">to refresh web page for every 3 seconds automatically-->
+    <title>Document</title>
+</head>
+<body>
+    <label for="lang">choose your language</label>
+    <form>
+        <div><br>
+    enter:<input list="language" name="language" id="lang">
+    <datalist id="language"><!--The datalist element represents a set of option elements that represent predefined options for other controls. In the rendering, the datalist element represents nothing and it, along with its children, should be hidden.-->
+        <option value="css"></option>
+        <option value="html"></option>
+        <option value="python"></option>
+        <option value="javascript"></option>
+        <option value="java"></option>
+    </datalist>
+    </div>
+    <br>
+    <div>
+    <label for="email"></label>
+    <input type="email" name="myemail" id="email" placeholder="enteryour mailid">
+    </div>
+    <!--
+        here,name=""is used to attach with php.file
+        <input type="checkbox" name="mycheck" id=""checked>
+        <input type="password" name="mypass" id="">
+        <input type="radio" name="myGender" id="">
+        <input type="date" name="myDate" id="">
+         <textarea type="text" name="myDate" id="">
+    -->
+    </form>
+</body>
+</html>
